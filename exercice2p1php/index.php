@@ -12,7 +12,7 @@ $age = 18; //variable de type entier.
   </head>
   <body>
     <p><?= $lastname.', '. $firstname.', '. $age ?> ans</p> <!-- permet d'ouvrir une balise php et de lancer un echo. -->
-    <p>Mon prénom est <?= $lastname ?>, mon nom est <?= $firstname ?>, et j'ai <?= $age ?> ans.</p>
+    <p>Mon prénom est <?= $lastname; ?>, mon nom est <?= $firstname; ?>, et j'ai <?= $age; ?> ans.</p>
     <!-- le . remplace le + en php. -->
   </body>
 </html>

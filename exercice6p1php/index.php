@@ -1,6 +1,4 @@
-<?php
-  $name = 'Seb';
- ?>
+<?php $name = 'Seb'; ?> <!-- Il est préfarable de déclarer une variable unique sur une ligne. -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -10,7 +8,7 @@
  <body>
    <!-- Créer une variable name et l'initialiser avec la valeur de votre choix.
 Afficher : "Bonjour" + name + ", comment vas tu ?". -->
-   <p>Bonjour <?php echo $name ?>, comment vas tu ?</p>
-
+<!-- Mettre le php dans le html permet d'accélérer le temps de chargement. -->
+   <p>Bonjour <?= $name; ?>, comment vas-tu ?</p>
 </body>
 </html>
